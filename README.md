@@ -26,7 +26,7 @@ This complementary tool addresses these limitations by ensuring that when securi
 This tool specifically focuses on **closed** CrowdStrike alerts. When it runs, it:
 
 1. Fetches recently closed alerts from CrowdStrike (using filter `status:'closed'`)
-2. Finds corresponding Jira issues that were created by the native integration but are still in "To Do" or "In Progress" status
+2. Finds corresponding Jira issues but are still in "To Do" or "In Progress" status, by searching for the CrowdStrike alert ID in the issue description  
 3. Updates the Jira issue status to reflect that the alert is closed
 4. Updates the Jira issue assignee to match the CrowdStrike assignee
 5. Copies any comments from the CrowdStrike alert to the Jira issue
