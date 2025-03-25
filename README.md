@@ -114,7 +114,7 @@ For local development and testing:
 1. Set the required environment variables.
 2. Run the script directly:
    ```
-   python crowdstrike_jira_sync.py
+   python falcon2jira.py
    ```
 
 ## Limitations
