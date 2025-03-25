@@ -94,7 +94,7 @@ This workflow ensures that when security teams close an alert in CrowdStrike, th
 Required Python packages:
 ```
 requests==2.31.0
-falconpy==1.2.13
+falconpy==1.4.5
 ```
 
 ## Usage
